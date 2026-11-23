@@ -1,0 +1,715 @@
+PROMPT MESTRE — DESENVOLVIMENTO DE PLATAFORMA EDUCACIONAL INTERATIVA PARA O ENEM
+1. PAPEL DO AGENTE DESENVOLVEDOR
+Atue como uma equipe multidisciplinar composta por:
+- Engenheiro de software sênior especializado em aplicações web.
+- Arquiteto de sistemas educacionais.
+- Especialista em UX/UI para estudantes.
+- Professor especialista na disciplina fornecida.
+- Pedagogo especializado em aprendizagem progressiva e avaliação formativa.
+- Especialista em elaboração de questões no estilo ENEM.
+- Especialista em acessibilidade digital e tecnologias educacionais.
+Sua missão é planejar, desenvolver, implementar e testar uma plataforma educacional web completa, voltada a estudantes do Ensino Fundamental e Médio, que facilite o aprendizado de conteúdos curriculares e prepare progressivamente os alunos para o ENEM.
+
+Não construa apenas um repositório de textos e exercícios.
+
+Desenvolva um ambiente interativo de aprendizagem, no qual cada estudante seja conduzido por uma sequência pedagógica coerente, compreenda os conceitos antes de avançar, aplique os conhecimentos adquiridos e receba avaliações personalizadas de desempenho.
+
+O conteúdo programático será fornecido ao final deste prompt e deverá orientar a construção das lições.
+
+Princípio central: o site deve ensinar, demonstrar, permitir experimentar, verificar a compreensão, identificar dificuldades e orientar o próximo passo do estudante.
+
+2. OBJETIVOS DA PLATAFORMA
+O sistema deverá:
+1. Ensinar conteúdos de forma clara, progressiva, contextualizada e cientificamente correta.
+2. Atender diferentes níveis de conhecimento e etapas escolares.
+3. Transformar assuntos complexos em sequências didáticas simples e compreensíveis.
+4. Utilizar recursos visuais, animações, exemplos e atividades interativas quando pedagogicamente úteis.
+5. Desenvolver raciocínio, interpretação e resolução de problemas, e não apenas memorização.
+6. Preparar gradualmente o aluno para questões contextualizadas do ENEM.
+7. Verificar o aprendizado ao término de cada lição.
+8. Identificar pontos fortes, dificuldades conceituais e erros recorrentes.
+9. Recomendar revisões específicas com base nos resultados.
+10. Registrar o progresso e permitir a retomada dos estudos.
+A prioridade absoluta é a qualidade do aprendizado, e não a quantidade de páginas ou questões geradas.
+
+3. REFERENCIAIS PEDAGÓGICOS
+Utilize como referências:
+- Base Nacional Comum Curricular (BNCC).
+- Matrizes de Referência do ENEM publicadas pelo Inep.
+- Habilidades e competências correspondentes à disciplina estudada.
+- Conteúdo programático fornecido ao final deste prompt.
+- Princípios de aprendizagem ativa, prática de recuperação, revisão espaçada e avaliação formativa.
+As matrizes do ENEM devem orientar, especialmente, o desenvolvimento das capacidades de interpretação, compreensão de fenômenos, resolução de problemas, argumentação e aplicação do conhecimento.
+
+Diferencie a aprendizagem escolar fundamental da preparação específica para o ENEM.
+
+Estudantes do Ensino Fundamental deverão receber explicações adequadas à etapa escolar, construindo conhecimentos necessários para o Ensino Médio. Estudantes mais avançados deverão enfrentar situações-problema progressivamente próximas às exigências do exame.
+
+Não atribua códigos de habilidades BNCC ou ENEM sem confirmação. Quando a correspondência não puder ser verificada, sinalize-a como pendente de revisão pedagógica.
+4. ESTRUTURA CURRICULAR
+Analise integralmente o conteúdo programático fornecido e organize-o na seguinte hierarquia:
+
+Disciplina → Unidade temática → Assunto → Subassunto → Lição → Atividades → Avaliação → Revisão.
+
+Cada assunto deverá apresentar três níveis de aprendizagem:
+NÍVEL 1 — FÁCIL: FUNDAMENTOS
+Objetivo: construir a compreensão inicial do conteúdo.
+
+Características:
+- Linguagem simples e acolhedora.
+- Explicações sem pressupor conhecimentos avançados.
+- Apresentação gradual dos termos técnicos.
+- Exemplos cotidianos e concretos.
+- Ilustrações que facilitem a compreensão.
+- Cálculos ou raciocínios demonstrados passo a passo.
+- Exercícios introdutórios e orientados.
+- Identificação de conhecimentos prévios necessários.
+NÍVEL 2 — INTERMEDIÁRIO: APLICAÇÃO
+Objetivo: consolidar os conhecimentos e desenvolver autonomia.
+
+Características:
+- Explicações mais aprofundadas.
+- Relação entre conceitos.
+- Problemas envolvendo situações reais.
+- Interpretação de textos, tabelas, gráficos ou imagens, quando pertinente.
+- Exercícios com múltiplas etapas de raciocínio.
+- Questões contextualizadas semelhantes às habilidades exigidas no ENEM.
+- Menor dependência de orientações.
+NÍVEL 3 — AVANÇADO: DOMÍNIO E ENEM
+Objetivo: desenvolver interpretação aprofundada, análise crítica e resolução de situações complexas.
+
+Características:
+- Problemas contextualizados de maior complexidade.
+- Questões interdisciplinares, quando relevantes.
+- Interpretação e combinação de diferentes informações.
+- Seleção de estratégias de resolução.
+- Distratores baseados em erros conceituais plausíveis.
+- Desafios que exijam aplicação, análise e argumentação.
+- Questões originais no estilo ENEM, adequadas ao conteúdo.
+Regra importante: os níveis não devem diferir apenas pela dificuldade numérica dos exercícios. A complexidade conceitual, a autonomia exigida e as habilidades cognitivas também deverão progredir.
+
+Cada lição deverá possuir objetivos próprios, pré-requisitos e critérios de domínio.
+
+5. JORNADA DE APRENDIZAGEM — LIÇÕES FASEADAS
+Cada lição deverá funcionar como uma pequena experiência educativa, organizada em etapas claramente identificadas.
+
+O estudante deverá visualizar sua posição na sequência e ter acesso a botões como "Anterior", "Continuar", "Rever explicação" e "Preciso de ajuda".
+FASE 1 — DESPERTAR A CURIOSIDADE
+Apresente uma pergunta, situação cotidiana, fenômeno, problema ou desafio relacionado ao conteúdo.
+
+A abertura deve provocar curiosidade e demonstrar a utilidade do aprendizado.
+
+Utilize uma pergunta motivadora, preferencialmente acompanhada de elemento visual ou pequena interação.
+
+Evite introduções longas e genéricas.
+FASE 2 — VERIFICAR CONHECIMENTOS PRÉVIOS
+Apresente um diagnóstico rápido de 3 a 5 questões.
+
+Objetivos:
+- Identificar conceitos que o estudante já domina.
+- Detectar possíveis lacunas nos pré-requisitos.
+- Ajustar a profundidade das explicações posteriores.
+- Oferecer revisão fundamental quando necessário.
+O diagnóstico não deverá funcionar como barreira punitiva. O aluno poderá continuar aprendendo mesmo quando apresentar dificuldades.
+FASE 3 — EXPLICAR O CONCEITO
+Desenvolva o conteúdo em pequenos blocos progressivos.
+
+Para cada conceito:
+1. Explique com linguagem acessível.
+2. Demonstre por meio de exemplo.
+3. Utilize representação visual quando pertinente.
+4. Relacione o conceito com situações reais.
+5. Verifique rapidamente a compreensão.
+Evite grandes blocos de texto.
+
+Apresente um conceito principal por vez.
+
+Introduza fórmulas, definições e terminologias somente depois de estabelecer seu significado, sempre que a estrutura do assunto permitir.
+FASE 4 — APRENDER INTERAGINDO
+Crie atividades digitais que permitam ao estudante explorar o conceito.
+
+Selecione os recursos conforme as características do conteúdo:
+- Simuladores com controle de variáveis.
+- Gráficos interativos.
+- Ilustrações manipuláveis.
+- Animações explicativas.
+- Linhas do tempo.
+- Diagramas com informações progressivas.
+- Associação de conceitos.
+- Organização de etapas.
+- Identificação de elementos em figuras.
+- Comparação de diferentes situações.
+As interações deverão possuir uma finalidade pedagógica explícita.
+
+Não utilize animações apenas como decoração.
+
+Sempre ofereça alternativa textual ou representação acessível para conceitos apresentados visualmente.
+FASE 5 — RESOLUÇÃO GUIADA
+Apresente problemas resolvidos passo a passo.
+
+O estudante deverá compreender:
+- Qual é o problema?
+- Quais informações foram fornecidas?
+- Que conhecimento pode ser utilizado?
+- Por que determinada estratégia foi escolhida?
+- Como cada etapa contribui para a solução?
+- Qual é a interpretação do resultado?
+Permita revelar as etapas gradualmente.
+
+Sempre que possível, solicite que o aluno tente descobrir o próximo passo antes de apresentá-lo.
+FASE 6 — PRÁTICA COM FEEDBACK
+Apresente exercícios de dificuldade crescente.
+
+Ofereça dicas progressivas:
+
+Dica 1: orientação conceitual.
+
+Dica 2: indicação do caminho de resolução.
+
+Dica 3: explicação parcial do procedimento.
+
+Ao responder incorretamente, o estudante deverá receber uma explicação que o ajude a reconstruir seu raciocínio, e não apenas a indicação da resposta correta.
+
+Permita novas tentativas durante as atividades de prática.
+FASE 7 — CONEXÃO COM O ENEM
+Apresente, quando adequado à etapa escolar, uma situação-problema original no estilo ENEM.
+
+Mostre como o conhecimento estudado aparece em contextos reais e como pode ser cobrado no exame.
+
+Trabalhe estratégias como:
+- Identificar o problema central.
+- Distinguir informações relevantes.
+- Interpretar o comando da questão.
+- Analisar alternativas.
+- Reconhecer erros comuns.
+- Justificar a resposta correta.
+Questões criadas pelo sistema devem ser identificadas como "Questão original no estilo ENEM", nunca como questão oficial.
+FASE 8 — QUIZ FINAL
+Ao terminar a lição, disponibilize uma avaliação estruturada.
+
+O quiz deverá:
+- Possuir preferencialmente de 12 a 15 questões.
+- Cobrir todos os objetivos de aprendizagem da lição.
+- Conter questões de dificuldade compatível com o nível estudado.
+- Utilizar alternativas plausíveis, sem ambiguidades.
+- Apresentar uma única resposta correta em questões objetivas.
+- Registrar respostas, acertos, erros e habilidades avaliadas.
+- Permitir revisão antes da entrega.
+- Impedir alterações depois da entrega, preservando o resultado daquela tentativa.
+- Corrigir automaticamente as questões objetivas após a finalização.
+Distribua questões suficientes por objetivo para sustentar a análise de desempenho. Sempre que possível, utilize pelo menos três evidências por habilidade avaliada.
+
+Não revele a resposta correta durante o quiz final. Apresente a correção comentada após a entrega.
+FASE 9 — DEVOLUTIVA PEDAGÓGICA
+Ao finalizar o quiz, apresente um relatório personalizado e compreensível.
+
+O estudante deverá descobrir o que aprendeu, o que ainda precisa melhorar e como poderá avançar.
+FASE 10 — REVISÃO E CONTINUIDADE
+Ofereça uma próxima ação específica:
+- Prosseguir para a próxima lição.
+- Revisar determinado conceito.
+- Resolver novos exercícios.
+- Refazer uma atividade em que apresentou dificuldade.
+- Realizar um desafio adicional.
+A sequência deve respeitar as dependências curriculares, permitindo revisitar livremente conteúdos anteriores.
+
+6. SISTEMA DE AVALIAÇÃO DO APRENDIZADO
+Implemente um motor de avaliação que não utilize apenas o percentual geral de acertos.
+
+Cada questão deverá registrar:
+- Identificador da questão.
+- Lição correspondente.
+- Objetivo de aprendizagem.
+- Habilidade avaliada.
+- Nível de dificuldade.
+- Resposta correta.
+- Alternativas e respectivas justificativas.
+- Conceito necessário para resolver.
+- Possível erro conceitual representado por cada alternativa incorreta.
+O sistema deverá calcular o desempenho por habilidade, e não somente por lição.
+Classificação inicial sugerida
+Aproveitamento	Classificação	Orientação
+80% a 100%	Domínio demonstrado	Avançar ou aprofundar
+60% a 79%	Em desenvolvimento	Revisão pontual
+Abaixo de 60%	Necessita reforço	Revisar fundamentosEsses limites são critérios internos de orientação pedagógica e deverão ser configuráveis.
+
+Não apresente o percentual como medida exata de proficiência quando houver poucas questões. Nesses casos, informe que o resultado representa apenas evidências iniciais.
+Relatório obrigatório
+O resultado deverá apresentar:
+
+1. Resumo geral
+- Quantidade de questões respondidas.
+- Quantidade de acertos.
+- Percentual de aproveitamento.
+- Tempo utilizado, quando registrado.
+- Nível da lição.
+- Situação da aprendizagem.
+2. Pontos fortes
+
+Identifique os objetivos e habilidades com melhor desempenho.
+
+Exemplo:
+
+"Você demonstrou boa compreensão dos conceitos fundamentais e conseguiu aplicá-los corretamente em situações diretas."
+
+3. Pontos a melhorar
+
+Aponte especificamente os conceitos associados aos erros.
+
+Exemplo:
+
+"Você compreendeu a definição do conceito, mas apresentou dificuldades quando precisou interpretar informações apresentadas em gráficos."
+
+Evite mensagens genéricas como "Você precisa estudar mais".
+
+4. Análise das respostas
+
+Para cada questão, exiba:
+- Resposta fornecida.
+- Resposta correta.
+- Explicação da solução.
+- Motivo pelo qual a alternativa escolhida está incorreta, quando aplicável.
+- Conceito relacionado.
+- Link para o trecho da lição que explica esse conceito.
+5. Plano de melhoria
+
+Recomende exatamente quais partes do conteúdo precisam ser revistas.
+
+O botão "Reforçar meu aprendizado" deverá levar diretamente à explicação ou atividade recomendada.
+
+6. Próximo passo
+
+Oriente o estudante sobre avançar, revisar ou praticar novamente.
+
+7. APRENDIZAGEM ADAPTATIVA
+Implemente um mecanismo de adaptação pedagógica baseado em regras transparentes.
+
+Exemplos:
+- Se o aluno errar repetidamente questões de um mesmo conceito, recomendar sua revisão.
+- Se dominar os fundamentos, oferecer atividades intermediárias.
+- Se dominar o intermediário, sugerir o avançado.
+- Se apresentar dificuldades avançadas, sugerir reforço nos pré-requisitos correspondentes.
+- Se repetir determinado erro, apresentar um exemplo alternativo antes de uma nova tentativa.
+O sistema deverá formar um histórico de habilidades trabalhadas e recomendar revisões em intervalos progressivos.
+
+Utilize como configuração inicial de revisão espaçada intervalos como 1, 3, 7 e 14 dias, ajustáveis conforme o desempenho.
+
+O mecanismo adaptativo deverá funcionar inicialmente sem depender de inteligência artificial externa.
+
+Não simule diagnósticos de IA nem atribua conclusões psicológicas ou cognitivas ao estudante.
+
+8. INTERFACE DO ESTUDANTE
+Desenvolva uma interface moderna, acolhedora, objetiva e apropriada ao ambiente escolar.
+
+Evite a aparência de um sistema administrativo complexo.
+PÁGINA INICIAL
+Apresente:
+- Mensagem de boas-vindas.
+- Disciplina disponível.
+- Botão "Começar a estudar".
+- Botão "Continuar de onde parei".
+- Progresso geral.
+- Lições recomendadas.
+- Revisões pendentes.
+- Última atividade realizada.
+PÁGINA DA DISCIPLINA
+Organize o conteúdo em unidades e trilhas de aprendizagem.
+
+Cada assunto deverá possuir cartões para os três níveis de dificuldade.
+
+Apresente indicação clara de:
+- Não iniciado.
+- Em andamento.
+- Concluído.
+- Revisão recomendada.
+Os cartões poderão mostrar duração estimada, objetivos e pré-requisitos.
+PÁGINA DA LIÇÃO
+Utilize layout focado na aprendizagem, com:
+- Título do assunto.
+- Indicação do nível.
+- Objetivo da lição.
+- Indicador de progresso.
+- Área principal para explicações e interações.
+- Navegação entre fases.
+- Botão de ajuda.
+- Acesso a conceitos já estudados.
+A interface deve reduzir distrações e manter os controles essenciais sempre visíveis.
+PÁGINA DE RESULTADOS
+Crie um painel com gráficos simples, percentuais, explicações e recomendações.
+
+Permita expandir cada habilidade para consultar os erros e revisões.
+
+A apresentação deverá ser compreensível para estudantes, evitando linguagem excessivamente técnica.
+PAINEL DE EVOLUÇÃO
+Apresente:
+- Lições concluídas.
+- Aproveitamento por assunto.
+- Evolução entre tentativas.
+- Histórico de estudos.
+- Habilidades demonstradas.
+- Habilidades que precisam de reforço.
+- Próximas revisões.
+- Caminho recomendado de aprendizagem.
+Use gamificação moderada, com marcos de progresso e conquistas educativas. Não utilize mecanismos de pressão, comparações constrangedoras ou recompensas por simples cliques.
+
+9. PADRÕES PARA A CONSTRUÇÃO DO CONTEÚDO
+Cada lição deverá conter, no mínimo:
+1. Identificador único.
+2. Disciplina, unidade, assunto e subassunto.
+3. Etapa escolar recomendada.
+4. Nível fácil, intermediário ou avançado.
+5. Pré-requisitos.
+6. Dois a quatro objetivos mensuráveis de aprendizagem.
+7. Introdução contextualizada.
+8. Explicações sequenciais.
+9. Exemplos comentados.
+10. Recursos visuais ou interativos quando úteis.
+11. Exercícios orientados.
+12. Questões de prática independente.
+13. Quiz final.
+14. Gabarito comentado.
+15. Mapeamento das questões para os objetivos.
+16. Recomendações de revisão.
+17. Referências pedagógicas e fontes consultadas, quando aplicáveis.
+Regras obrigatórias de qualidade
+- Não produzir lições compostas apenas por definições.
+- Não usar explicações vagas ou circulares.
+- Não omitir etapas essenciais em resoluções matemáticas ou científicas.
+- Conferir cálculos, unidades, sinais, conceitos e gabaritos.
+- Evitar alternativas repetidas, incorretas ou ambíguas.
+- Não criar perguntas cuja resposta não tenha sido ensinada ou conste dos pré-requisitos.
+- Não repetir questões idênticas apenas para aumentar o banco.
+- Evitar linguagem excessivamente infantilizada para estudantes do Ensino Médio.
+- Não apresentar conteúdos inventados como fatos.
+- Explicar termos técnicos no primeiro uso.
+- Respeitar a diversidade cultural e as diferentes realidades dos estudantes.
+Crie mecanismos de validação do conteúdo antes de publicar cada lição.
+
+As avaliações devem medir os objetivos de aprendizagem definidos, e não apenas a capacidade de decorar frases da explicação.
+
+10. TECNOLOGIAS E COMPATIBILIDADE
+A plataforma deverá funcionar diretamente em navegadores modernos de computadores e dispositivos móveis, sem exigir que o estudante instale programas, extensões ou ambientes de desenvolvimento.
+Tecnologias recomendadas
+- HTML5 semântico.
+- CSS3 responsivo.
+- JavaScript ou TypeScript.
+- React com Vite, caso seja apropriado à arquitetura.
+- SVG e Canvas para diagramas e simulações.
+- Biblioteca de renderização matemática, quando necessária.
+- Armazenamento local para progresso e histórico na primeira versão.
+Poderá utilizar bibliotecas consolidadas quando agregarem valor real, mas evite dependências desnecessárias.
+
+O projeto deverá produzir arquivos estáticos publicáveis em hospedagem web convencional.
+
+Requisitos obrigatórios:
+- Compatibilidade com versões atuais de Chrome, Firefox, Edge e Safari.
+- Interface responsiva para desktop, notebook, tablet e celular.
+- Não exigir instalação para acessar o site.
+- Carregamento rápido mesmo em conexões limitadas.
+- Navegação acessível por teclado.
+- Suporte a leitores de tela.
+- Contraste visual adequado.
+- Textos redimensionáveis.
+- Identificação textual dos elementos visuais.
+- Respeito às preferências de movimento reduzido.
+- Persistência do progresso após recarregar a página.
+- Tratamento de falhas de carregamento e dados incompletos.
+Buscar conformidade com WCAG 2.2 nível AA.
+Funcionamento sem internet
+Sempre que viável, implemente funcionamento offline após o primeiro carregamento, utilizando recursos PWA e cache controlado.
+
+Lições e exercícios previamente disponibilizados deverão continuar acessíveis quando não dependerem de serviços externos.
+
+Não comprometa o funcionamento principal por causa da implementação offline.
+
+11. ARQUITETURA DE CONTEÚDO EXPANSÍVEL
+Não desenvolva lições como páginas rígidas, com conteúdo misturado diretamente ao código da interface.
+
+Separe:
+
+A. Motor da plataforma: responsável pela navegação, exibição, interatividade, avaliações e acompanhamento.
+
+B. Motor pedagógico: responsável pelos pré-requisitos, critérios de progressão, diagnóstico de erros e recomendações.
+
+C. Base de conteúdo: responsável pelos textos, recursos visuais, objetivos, atividades e questões.
+
+As lições deverão ser armazenadas em estrutura organizada e validável, utilizando JSON, Markdown estruturado ou tecnologia equivalente.
+
+Defina schemas para:
+- Disciplinas.
+- Unidades.
+- Assuntos.
+- Lições.
+- Objetivos e habilidades.
+- Recursos didáticos.
+- Questões.
+- Respostas.
+- Tentativas.
+- Resultados.
+- Recomendações de revisão.
+O sistema deverá permitir acrescentar novos conteúdos sem alterar o funcionamento do motor educacional.
+
+Implemente versionamento do conteúdo, validação de identificadores, integridade das referências e compatibilidade com registros de progresso já existentes.
+Importação e manutenção
+Prepare a arquitetura para receber novos conteúdos programáticos futuramente.
+
+Disponibilize um mecanismo documentado de importação e validação de novos conjuntos de lições.
+
+Na primeira versão, ele poderá ser executado localmente por um administrador, sem necessidade de um painel editorial completo.
+
+12. ARMAZENAMENTO E PRIVACIDADE
+Na primeira versão:
+- Permita estudar sem cadastro obrigatório.
+- Salve o progresso localmente.
+- Registre as tentativas e resultados.
+- Ofereça opção de exportação e importação do histórico.
+- Preserve dados mesmo após o fechamento do navegador, dentro das limitações do armazenamento local.
+- Informe que limpar dados do navegador pode apagar o histórico local.
+Projete a arquitetura para permitir futuramente contas individuais e sincronização entre dispositivos.
+
+Não implemente autenticação fictícia ou armazenamento inseguro de senhas.
+
+Considere a LGPD e a proteção de dados de crianças e adolescentes. Colete apenas dados indispensáveis, não implemente publicidade comportamental nem rastreamento desnecessário.
+
+13. QUALIDADE DIDÁTICA E VISUAL
+Adote uma identidade visual agradável, coerente e organizada.
+
+Utilize cores, tipografia, ícones e espaçamento para facilitar a compreensão.
+
+As cores devem ter significado consistente, sem serem o único meio de transmitir uma informação.
+Diretrizes de experiência
+- O estudante deverá saber sempre onde está.
+- Cada tela deverá apresentar uma ação principal clara.
+- Conteúdos longos deverão ser divididos em etapas menores.
+- Feedbacks devem ser específicos, respeitosos e motivadores.
+- Não exibir excesso de informações simultaneamente.
+- Não criar menus complexos sem necessidade.
+- Garantir botões confortáveis para uso em telas sensíveis ao toque.
+- Oferecer navegação de retorno e retomada.
+- Evitar perda de respostas em caso de atualização acidental.
+- Priorizar compreensão, legibilidade e facilidade de uso.
+A qualidade visual deverá servir ao aprendizado, e não competir com ele.
+
+14. QUESTÕES E SIMULADOS
+A estrutura deverá permitir futuramente diferentes modalidades de avaliação:
+- Quiz por lição.
+- Revisão de uma unidade.
+- Avaliação de nivelamento.
+- Simulado por assunto.
+- Simulado interdisciplinar.
+- Simulado geral no estilo ENEM.
+Na implementação inicial, priorize o quiz por lição e a avaliação por habilidades.
+
+Prepare o motor para suportar questões objetivas com cinco alternativas, sem restringir os exercícios formativos a esse formato.
+
+Diferencie claramente:
+- Questões autorais da plataforma.
+- Questões inspiradas no estilo ENEM.
+- Questões oficiais do ENEM, quando importadas de fontes identificadas e com direitos de uso respeitados.
+Não utilize o percentual de acertos em quizzes comuns para simular uma nota oficial do ENEM ou afirmar equivalência com a Teoria de Resposta ao Item (TRI).
+
+Se forem implementados simulados, apresente seus resultados como desempenho estimado na atividade, sem prometer nota oficial.
+Tratamento específico da redação
+Se a disciplina fornecida envolver produção textual, prepare suporte para respostas discursivas e rubricas.
+
+Não atribua automaticamente uma nota oficial ou equivalente à correção humana do ENEM sem metodologia validada.
+
+15. ESTRATÉGIA DE IMPLEMENTAÇÃO
+Implemente o projeto progressivamente, mantendo a aplicação funcional ao final de cada etapa.
+ETAPA 1 — ANÁLISE PEDAGÓGICA
+Antes de programar:
+1. Leia integralmente o conteúdo programático.
+2. Identifique a disciplina e suas unidades.
+3. Organize assuntos e subassuntos.
+4. Detecte conteúdos repetidos ou sobrepostos.
+5. Identifique pré-requisitos.
+6. Proponha a sequência pedagógica.
+7. Defina os objetivos de cada lição.
+8. Classifique as lições em fácil, intermediário e avançado.
+9. Crie um mapa curricular com todas as unidades do conteúdo recebido.
+Não descarte nenhum tópico fornecido silenciosamente.
+
+Marque ambiguidades e possíveis lacunas para revisão.
+ETAPA 2 — ESTRUTURA TÉCNICA
+Inspecione o repositório existente antes de alterar arquivos.
+
+Caso esteja vazio, inicialize o projeto utilizando a arquitetura recomendada.
+
+Construa:
+- Estrutura de navegação.
+- Design responsivo.
+- Componentes de lição.
+- Motor de conteúdo.
+- Motor de exercícios.
+- Persistência local.
+- Estrutura de acompanhamento.
+ETAPA 3 — PRIMEIRA EXPERIÊNCIA COMPLETA
+Escolha um assunto representativo do conteúdo programático.
+
+Implemente suas lições nos três níveis:
+- Fácil.
+- Intermediário.
+- Avançado.
+Cada nível deverá possuir todas as fases pedagógicas adequadas, atividades funcionais, quiz, correção e relatório de desempenho.
+
+Essa primeira experiência servirá como padrão de qualidade para as demais.
+
+Não substitua conteúdos reais por botões ilustrativos, textos provisórios ou componentes sem funcionamento.
+ETAPA 4 — EXPANSÃO CURRICULAR
+Utilize o padrão aprovado tecnicamente para ampliar as lições aos demais assuntos do conteúdo programático.
+
+Faça essa expansão em lotes organizados por unidade.
+
+Valide a qualidade didática e técnica de cada lote.
+
+Se o programa for extenso, mantenha um inventário explícito das lições concluídas, pendentes e em revisão.
+
+Não apresente conteúdos incompletos como finalizados.
+ETAPA 5 — AVALIAÇÃO E PERSONALIZAÇÃO
+Implemente:
+- Histórico de tentativas.
+- Indicadores de domínio por objetivo.
+- Diagnóstico de erros.
+- Recomendações de reforço.
+- Revisões programadas.
+- Evolução do aluno.
+ETAPA 6 — TESTES E REFINAMENTOS
+Teste as jornadas reais do estudante, desde a primeira visita até a conclusão e revisão da lição.
+
+Corrija problemas de navegação, desempenho, acessibilidade e conteúdo.
+
+16. TESTES OBRIGATÓRIOS
+Implemente testes automatizados para as funções críticas.
+
+Verifique, no mínimo:
+1. Carregamento correto das lições.
+2. Navegação entre fases.
+3. Validação de pré-requisitos.
+4. Registro de respostas.
+5. Cálculo correto do aproveitamento.
+6. Análise do desempenho por habilidade.
+7. Identificação dos conceitos associados aos erros.
+8. Recomendações de revisão.
+9. Persistência do progresso.
+10. Retomada após recarregar a página.
+11. Funcionamento em telas pequenas.
+12. Navegação acessível por teclado.
+13. Integridade do gabarito e das alternativas.
+14. Ausência de referências quebradas na base de conteúdo.
+15. Tratamento seguro de entradas e conteúdos importados.
+Utilize testes unitários e testes de navegação de ponta a ponta quando apropriado.
+
+Para o conteúdo educacional, estabeleça verificações adicionais:
+- A resposta correta realmente resolve o problema?
+- O gabarito coincide com a explicação?
+- As unidades e fórmulas estão corretas?
+- O estudante recebeu explicação suficiente para responder?
+- A questão avalia o objetivo declarado?
+- O grau de dificuldade corresponde à classificação?
+- Os erros diagnósticos estão associados a evidências concretas?
+Não considere a aparência visual suficiente para validar a plataforma.
+
+17. CRITÉRIOS DE ACEITAÇÃO
+O desenvolvimento somente poderá ser considerado funcional quando um estudante conseguir:
+1. Abrir o site pelo navegador.
+2. Escolher a disciplina e um assunto.
+3. Identificar o nível da lição.
+4. Consultar os objetivos de aprendizagem.
+5. Realizar a sequência pedagógica.
+6. Interagir com as atividades.
+7. Resolver exercícios com feedback.
+8. Realizar o quiz final.
+9. Receber a correção comentada.
+10. Visualizar seus pontos fortes e fracos.
+11. Acessar as revisões recomendadas.
+12. Encerrar e posteriormente retomar o progresso.
+Todos esses procedimentos deverão funcionar de verdade, sem simulações visuais que aparentem funcionalidades inexistentes.
+
+18. ENTREGÁVEIS
+Ao final do desenvolvimento, forneça:
+- Código-fonte completo.
+- Estrutura organizada do projeto.
+- Plataforma executável.
+- Base de conteúdo curricular implementada.
+- Banco de questões das lições concluídas.
+- Motor de avaliação.
+- Painel de acompanhamento.
+- Testes automatizados.
+- Arquivo README com instruções de instalação para desenvolvimento.
+- Instruções para executar o projeto localmente.
+- Instruções para gerar a versão de produção.
+- Instruções para publicar o site em hospedagem estática.
+- Orientações para adicionar disciplinas, assuntos, lições e questões.
+- Relatório de cobertura do conteúdo programático.
+- Lista explícita das funcionalidades implementadas e pendentes.
+O estudante não deverá precisar instalar dependências de desenvolvimento. A instalação de ferramentas será necessária somente para os responsáveis por construir e manter a aplicação.
+
+19. COMPORTAMENTO ESPERADO DO AGENTE DE CODIFICAÇÃO
+Não se limite a apresentar ideias, telas conceituais ou um plano abstrato.
+
+Execute a implementação.
+
+Tome decisões técnicas justificadas, priorizando simplicidade, manutenção, desempenho e qualidade educacional.
+
+Quando houver várias abordagens possíveis, escolha a mais apropriada para um projeto web educacional expansível.
+
+Não comprometa o motor pedagógico em favor de elementos visuais sofisticados.
+
+Se o conteúdo programático for amplo, trabalhe de maneira incremental, entregando primeiro um fluxo completo e confiável.
+
+Não declare que algo está funcionando sem executar as verificações disponíveis.
+
+Não elimine recursos existentes sem necessidade quando estiver trabalhando em um repositório já iniciado.
+
+Não invente resultados de testes, referências pedagógicas, questões oficiais ou funcionalidades.
+
+Ao concluir cada etapa, informe brevemente o que foi implementado, o que foi validado e o que permanece pendente.
+
+Priorize um produto realmente utilizável em vez de uma demonstração superficial.
+
+20. RESULTADO EDUCACIONAL ESPERADO
+Ao utilizar a plataforma, o estudante deverá conseguir responder:
+- O que estou aprendendo?
+- Por que esse conhecimento é importante?
+- O que preciso saber antes?
+- Como esse conceito funciona?
+- Como posso utilizá-lo para resolver problemas?
+- O que consegui aprender?
+- Em quais conceitos ainda tenho dificuldades?
+- O que devo estudar em seguida?
+- Como esse conteúdo me prepara para o ENEM?
+A plataforma deve funcionar como um orientador pedagógico digital, capaz de transformar o conteúdo programático em uma jornada de aprendizagem clara, gradual, interativa e mensurável.
+
+O objetivo não é simplesmente fazer o estudante acertar questões.
+
+O objetivo é desenvolver compreensão, autonomia intelectual, raciocínio, capacidade de aplicação e preparação consistente para o ENEM.
+
+21. CONTEÚDO PROGRAMÁTICO DA DISCIPLINA
+A partir deste ponto, utilize o conteúdo programático abaixo como fonte principal para organizar unidades, assuntos, subassuntos, lições, exercícios e avaliações.
+
+Regras específicas:
+1. Preserve todos os temas relevantes fornecidos.
+2. Organize-os em sequência pedagogicamente coerente, mesmo que estejam apresentados fora de ordem.
+3. Identifique os pré-requisitos necessários para cada assunto.
+4. Crie lições nos três níveis de dificuldade.
+5. Relacione cada lição às habilidades pertinentes do ENEM e da BNCC, quando verificáveis.
+6. Acrescente atividades de reforço para pré-requisitos ausentes, identificando-as como material complementar.
+7. Não introduza novos assuntos principais fora do conteúdo programático sem sinalizá-los.
+8. Mantenha a precisão científica e a progressão didática como prioridades.
+9. Construa uma matriz de cobertura que permita conferir quais tópicos já foram implementados.
+10. Inicie a implementação após analisar o conteúdo.
+DISCIPLINA:
+
+[MATEMATICA]
+
+PÚBLICO-ALVO ESPECÍFICO, SE HOUVER:
+
+[AMBOS]
+
+CONTEÚDO PROGRAMÁTICO:
+
+está no arquivo Conteudo_Programatico_ENEM-matematica.docx]
+
+FIM DO CONTEÚDO PROGRAMÁTICO
+
+Inicie agora a análise, a organização curricular e a implementação progressiva da plataforma, obedecendo a todas as diretrizes anteriores.
